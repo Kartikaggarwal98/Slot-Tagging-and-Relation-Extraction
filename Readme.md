@@ -20,5 +20,8 @@ The following models are implemented:
 
 ### Slot Filling:
 
+<img src="assets/slotfill.png" width="300">
+
+
 1. `slot_tagging/`: The problem is treated as Sequence Labelling for LSTM, CRF and  word level classification problem for models like Decision Tree, Logisitic Regression.
 1. `joint learning/`: Joint learning of slot tagging and relation extraction using huggingface transformers. Bert, Distilbert, Albert models are used. 
